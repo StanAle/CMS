@@ -5,7 +5,7 @@ function addInTable() {
   var email = document.getElementById("email").value;
   var sex = document.getElementById("sex").value;
   var birthday = document.getElementById("birthday").value;
-  var tableLength = document.getElementById("table").rows[0].length;
+  var tableLength = document.getElementById("table").rows.length;
   var row = table.insertRow(1);
   var cellFname = row.insertCell(0);
   var cellLname = row.insertCell(1);
