@@ -2,35 +2,44 @@
 <html>
   <head>
     <title>CMS</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
-    <h2>HTML Forms</h2>
-
-    <label for="fname">First name:</label><br />
-    <input type="text" id="fname" name="fname" required /><br />
-    <label for="lname">Last name:</label><br />
-    <input type="text" id="lname" name="lname" required /><br />
-    <label for="email">Email:</label><br />
-    <input type="email" id="email" name="email" required /><br />
-    <label for="sex">Sex:</label><br />
-    <select name="sex" id="sex" required>
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-      <option value="other">Other</option></select
-    ><br />
-    <label for="birthday">Birthday:</label><br />
-    <input type="date" id="birthday" name="birthday" />
-    <br />
-    <input type="button" value="Submit" value="click" onclick="addInTable()" />
+    <h2>Content Managemant System</h2>
+    <div class="form">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" required /><br />
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
+      <label for="sex">Sex:</label><br />
+      <select name="sex" id="sex" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option></select
+      ><br />
+      <label for="birthday">Birthday:</label><br />
+      <input type="date" id="birthday" name="birthday" />
+      <br />
+      <input
+        type="button"
+        value="Submit"
+        value="click"
+        onclick="addInTable()"
+      />
+    </div>
     <script type="text/javascript" src="index.js"></script>
-    <table id="table">
-      <tr>
-        <th>First name</th>
-        <th>Last name</th>
-        <th>Email</th>
-        <th>Sex</th>
-        <th>Birthday</th>
-      </tr>
-    </table>
+    <div class="table">
+      <table id="table">
+        <tr>
+          <th>First name</th>
+          <th>Last name</th>
+          <th>Email</th>
+          <th>Sex</th>
+          <th>Birthday</th>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
