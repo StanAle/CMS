@@ -12,7 +12,7 @@ function addInTable() {
   var cellEmail = row.insertCell(2);
   var cellSex = row.insertCell(3);
   var cellBirthday = row.insertCell(4);
-  addToList(fname + " " + lname);
+  addNameToList(fname + " " + lname);
   cellFname.innerHTML = fname;
   cellLname.innerHTML = lname;
   cellEmail.innerHTML = email;
